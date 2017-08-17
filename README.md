@@ -39,7 +39,3 @@ Integration of the JSpeech Grammar Format (JSGF) in Visual Studio Code giving ac
 * [vscode-docs on GitHub](https://github.com/Microsoft/vscode-docs)
 * [JSGF W3C Standard](https://www.w3.org/TR/jsgf/)
 
-
-## License
-
-[MIT](https://github.com/)
