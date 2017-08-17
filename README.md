@@ -1,7 +1,7 @@
 # JSpeech Grammar Format for vscode
 
-[![GitHub issues](https://img.shields.io/github/issues/ScottishCyclops/jsgf-language.svg)](https://github.com/{}/issues)
-[![GitHub license button](https://img.shields.io/github/license/ScottishCyclops/jsgf-language.svg)](https://github.com/{}/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/ScottishCyclops/jsgf-language.svg)](https://github.com/ScottishCyclops/jsgf-language/issues)
+[![GitHub license button](https://img.shields.io/github/license/ScottishCyclops/jsgf-language.svg)](https://github.com/https://github.com/ScottishCyclops/jsgf-language/LICENSE)
 [![VS Code marketplace button](https://vsmarketplacebadge.apphb.com/installs/scottishcyclops.jsgf-language?.svg)](https://marketplace.visualstudio.com/?)
 
 
