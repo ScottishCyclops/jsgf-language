@@ -2,7 +2,7 @@
 	"name": "jsgf-language",
     "displayName": "JSpeech Grammar Format",
 	"description": "Syntax highlight and code snippets for JSGF V1.0 ISO8859-1",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "scottishcyclops",
 	"categories":
 	[
