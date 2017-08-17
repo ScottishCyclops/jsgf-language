@@ -32,12 +32,10 @@
 	"keywords":
 	[
 		"jsgf",
-		"jsspeech",
 		"jspeech",
 		"grammar",
 		"format",
-		"gram",
-		"ISO8859-1"
+		"gram"
 	],
 	"contributes":
 	{
