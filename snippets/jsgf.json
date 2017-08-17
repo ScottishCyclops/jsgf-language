@@ -52,7 +52,7 @@
 		"tag ({})":
 		{
 			"prefix": "tag",
-			"body": "{${1:data}}}"
+			"body": "{${1:data}}"
 		},
 
 		"zero or more '*'":
