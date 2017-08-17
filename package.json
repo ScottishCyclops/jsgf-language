@@ -12,13 +12,13 @@
 	"icon": "icon.png",
 	"bugs":
 	{
-		"url": "https://github.com/{}/issues"
+		"url": "https://github.com/ScottishCyclops/jsgf-language/issues"
 	},
-	"homepage": "https://github.com/{}",
+	"homepage": "https://github.com/ScottishCyclops/jsgf-language",
 	"repository":
 	{
 		"type": "git",
-		"url": "https://github.com/{}.git"
+		"url": "https://github.com/ScottishCyclops/jsgf-language.git"
 	},
 	"galleryBanner":
 	{

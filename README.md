@@ -1,8 +1,8 @@
 # JSpeech Grammar Format for vscode
 
-[![GitHub issues](https://img.shields.io/github/issues/{}.svg)](https://github.com/{}/issues)
-[![GitHub license button](https://img.shields.io/github/license/stef-levesque/vscode-shader.svg)](https://github.com/{}/LICENSE)
-[![VS Code marketplace button](https://vsmarketplacebadge.apphb.com/installs/{}.svg)](https://marketplace.visualstudio.com/items/{})
+[![GitHub issues](https://img.shields.io/github/issues/ScottishCyclops/jsgf-language.svg)](https://github.com/{}/issues)
+[![GitHub license button](https://img.shields.io/github/license/ScottishCyclops/jsgf-language.svg)](https://github.com/{}/LICENSE)
+[![VS Code marketplace button](https://vsmarketplacebadge.apphb.com/installs/scottishcyclops.jsgf-language?.svg)](https://marketplace.visualstudio.com/?)
 
 
 ## Features
