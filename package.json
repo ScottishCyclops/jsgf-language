@@ -1,0 +1,64 @@
+{
+	"name": "jsgf-language",
+    "displayName": "JSpeech Grammar Format",
+	"description": "Syntax highlight and code snippets for JSGF V1.0 ISO8859-1",
+	"version": "0.0.1",
+	"publisher": "scottishcyclops",
+	"categories":
+	[
+		"Languages"
+	],
+	"license": "MIT",
+	"icon": "icon.png",
+	"bugs":
+	{
+		"url": "https://github.com/{}/issues"
+	},
+	"homepage": "https://github.com/{}",
+	"repository":
+	{
+		"type": "git",
+		"url": "https://github.com/{}.git"
+	},
+	"galleryBanner":
+	{
+		"color": "#666669",
+		"theme": "dark"
+	},
+	"engines":
+	{
+        "vscode": "^1.15.0"
+	},
+	"keywords":
+	[
+		"jsgf",
+		"jsspeech",
+		"jspeech",
+		"grammar",
+		"format",
+		"gram",
+		"ISO8859-1"
+	],
+	"contributes":
+	{
+		"languages":
+		[{
+			"id": "jsgf",
+			"aliases": ["JSpeech Grammar Format", "jsgf"],
+			"extensions": [".gram", ".jsgf"],
+			"firstLine": "#JSGF V\\d+\\.\\d+.*;",
+			"configuration": "./jsgf.configuration.json"
+		}],
+		"grammars":
+		[{
+            "language": "jsgf",
+            "scopeName": "source.jsgf",
+            "path": "./syntaxes/jsgf.grammar.json"
+		}],
+		"snippets":
+		[{
+			"language": "jsgf",
+			"path": "./snippets/jsgf.json"	
+		}]
+	}
+}

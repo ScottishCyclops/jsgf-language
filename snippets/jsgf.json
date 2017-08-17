@@ -1,0 +1,69 @@
+{
+	".source.jsgf":
+	{
+		"single import":
+		{
+			"prefix": "imp",
+			"body": "import <${1:package}>;"
+		},
+		"grammar declaration":
+		{
+			"prefix": "gram",
+			"body": "grammar ${1:name};"
+		},
+		"single rule":
+		{
+			"prefix": "rule",
+			"body": "<${1:name}> = ${2:value};"
+		},
+		"single public rule":
+		{
+			"prefix": "pub-rule",
+			"body": "public <${1:name}> = ${2:value};"
+		},
+		"header '#JSGF...'":
+		{
+			"prefix": "head",
+			"body": "#JSGF V1.0;"
+		},
+
+		"or 'a | b'":
+		{
+			"prefix": "or",
+			"body": "${1:word1} | ${2:word2}"
+		},
+
+		"weighted or 'a /1.0/ | b /0.1/'":
+		{
+			"prefix": "w-or",
+			"body": "${1:word1} /${2:1.0}/| ${3:word2} /${4:1.0}/"
+		},
+
+		"group '()'":
+		{
+			"prefix": "grp",
+			"body": "(${1})"
+		},
+		"optional group '[]'":
+		{
+			"prefix": "opt-grp",
+			"body": "[${1}]"
+		},
+		"tag ({})":
+		{
+			"prefix": "tag",
+			"body": "{${1:data}}}"
+		},
+
+		"zero or more '*'":
+		{
+			"prefix": "zero-more",
+			"body": "* ${1}"
+		},
+		"one or more '+'":
+		{
+			"prefix": "one-more",
+			"body": "+ ${1}"
+		}
+	}
+}

@@ -1,0 +1,63 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"fileTypes": ["jsgf"],
+	"name": "JSpeech Grammar Format",
+	"patterns":
+	[
+		{
+			"comment": "Comment block",
+			"begin": "/\\*",
+			"end": "\\*/",
+			"name": "comment.block"
+		},
+		{
+			"comment": "Double slash comment line",
+			"begin": "//",
+			"end": "$",
+			"name": "comment.line.double-slash"
+		},
+		{
+			"comment": "DOCTYPE",
+			"match": "#JSGF V\\d+\\.\\d+.*;",
+			"name": "string.regexp"
+		},
+		{
+			"comment": "Unary Tag block",
+			"begin": "{",
+			"end": "}",
+			"name": "entity.name.section"
+		},
+		{
+			"comment": "Language constants",
+			"match": "\\b(VOID|NULL)\\b",
+			"name": "constant.language"
+		},
+		{
+			"comment": "Keywords",
+			"match": "\\b(grammar|import|public)\\b",
+			"name": "keyword.operator.new"
+		},
+		{
+			"comment": "Rules definition",
+			"match": "\\<.+?\\>",
+			"name": "variable.name"
+		},
+		{
+			"comment": "Alternatives weights",
+			"match": "\\/[0-9.]+\\/",
+			"name": "keyword.other.unit"
+		},
+		{
+			"comment": "Word constants",
+			"match": "\\w+",
+			"name": "string.html"
+		},
+		{
+			"comment": "Unary operators",
+			"match": "[*+]"
+		}
+		
+	],
+	"repository":{},
+	"scopeName": "source.jsgf"
+}
